@@ -1,0 +1,69 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+/* ===========================================
+   Custom reset
+   =========================================== */
+
+html {
+	font-size: 0.625em;
+	height:100%;
+  
+}
+body,html{
+	font-family: "Open Sans",Arial;
+	max-width: 100%;
+	overflow-x: hidden; 
+	min-height:100%;
+}
+
+* {
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* ===========================================
+   Helpers
+   =========================================== */
+
+.structural {
+	position: absolute;
+	left: -9999px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.ir {
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.hidden {
+	position: absolute !important;
+	visibility: hidden !important;
+	z-index: -1 !important;
+}
+
+body > * {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+/* ===========================================
+   Wrappers
+   =========================================== */
+
+.wrapper {
+	min-width: 32rem;
+	max-width: 96rem;
+	padding: 0 1rem;
+	margin: 0 auto;
+}

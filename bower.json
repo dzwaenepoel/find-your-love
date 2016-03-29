@@ -1,0 +1,19 @@
+{
+  "name": "cws2_labo_01_zwaenepoel_daan",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+    }
+}

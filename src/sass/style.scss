@@ -1,0 +1,85 @@
+$heart: 200px;
+
+html { 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+	background-color: #FA85A1;
+	height: 60px
+	
+}
+h1{
+	padding-top: 16px;
+	padding-left: 10px;
+	color: #fff;
+	font-size: 30px;
+}
+.bgheart{
+	background-image: url( ../img/heart.png);
+	 background-size: $heart $heart;
+	 height: $heart;
+	 width: $heart;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+}
+#ulove{
+	text-align: center;
+	vertical-align: middle;
+	line-height: $heart; 
+	color: #fff;
+	font-size: 60px;
+}
+.name{
+	margin-left: 5%;
+	width: 90%;
+	margin-top: 2%;
+	padding: 12px 12px;
+}
+#sub{
+	background-color: #79656A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#replace{
+	display: block;
+	background-image: url( ../img/replace.png);
+	background-size: 40px 40px;
+	 height: 40px;
+	 width: 40px;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+@media(min-width: 1023px) {
+	.name{
+		width: 30%;
+		float: left;
+		margin-left: 0%;
+	}
+	#name1{
+		margin-left: 17%;
+	}
+	#replace{
+		float: left;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	#sub{
+		margin-left: 46%;
+	}
+
+
+
+
+}
