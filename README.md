@@ -20,7 +20,11 @@ repeat this<br/>
    4+2 3<br/>
     6  3<br/>
     
-so now we know jack love ross for 63%
+so now we know jack love ross for 63% <br/>
+
+**note**<br/>
+written in Js<br/>
+in the src file you find the php version
 
 
 
